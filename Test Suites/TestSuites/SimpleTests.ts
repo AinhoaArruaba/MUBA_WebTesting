@@ -17,9 +17,15 @@
       <testCaseId>Test Cases/Test Suite/TrainPlayer/TrainPlayerTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a3fad885-a999-4ff3-8e72-9177e1b040c8</guid>
+      <guid>17e2de4a-8466-4337-a155-a73daf04b426</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Suite/TrainPlayer/TrainPlayerTest</testCaseId>
+      <testCaseId>Test Cases/Test Suite/PlayPage/PlayPageTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f51056e0-edb8-4418-8fab-46b2fe338c8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Suite/PlayerInfo/PlayerInfoTest</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

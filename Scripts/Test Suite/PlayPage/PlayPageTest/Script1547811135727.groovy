@@ -14,4 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://ec2-34-195-236-81.compute-1.amazonaws.com:8081/MUBA/')
+
+WebUI.setText(findTestObject('Page_Home/input_Log in_username'), 'ainhoa')
+
+WebUI.setEncryptedText(findTestObject('Page_Home/input_Log in_password'), '4nvbrPglk7k=')
+
+WebUI.click(findTestObject('Page_Home/button_Log in'))
+
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Play'))
+
+WebUI.closeBrowser()

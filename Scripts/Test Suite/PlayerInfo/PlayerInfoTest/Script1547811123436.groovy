@@ -20,7 +20,7 @@ WebUI.click(findTestObject('Page_Home/button_Log in'))
 
 WebUI.click(findTestObject('Page_Home/a_Team'))
 
-WebUI.click(findTestObject('Page_Home/button_Ainhoa Arruabarrena'))
+WebUI.click(findTestObject('Page_Team/button_Ainhoa Arruabarrena'))
 
 WebDriver myDriver = DriverFactory.getWebDriver()
 

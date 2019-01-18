@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginTest_RandomData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79848d02-84a5-4d77-ba82-27b6b66492bd</testCaseGuid>
+   <variable>
+      <defaultValue>'ainhoa'</defaultValue>
+      <description></description>
+      <id>572ad6f8-d41d-495f-b05a-b853cd66a3c2</id>
+      <masked>false</masked>
+      <name>USERNAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'iGDxf8hSRT4='</defaultValue>
+      <description></description>
+      <id>9a19cf5a-25dc-47f9-aadf-13835ce8d897</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+</TestCaseEntity>

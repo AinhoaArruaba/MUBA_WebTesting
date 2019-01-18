@@ -38,3 +38,8 @@ Libs/TempTestCase*
 Libs/TempTestSuite*
 bin/lib/TempTestCase*
 Reports/
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/

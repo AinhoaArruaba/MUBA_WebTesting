@@ -26,13 +26,13 @@ WebDriver myDriver = DriverFactory.getWebDriver()
 ArrayList<WebElement> alert = myDriver.findElements(By.className("alert-success"))
 
 if(alert.size() == 0){
-	KeywordUtil.markWarning("No login performed with database data")
+	KeywordUtil.markFailed("No login performed with database data")
 }else{
 	//KeywordUtil.markPassed("Login performed successfuly")
 	WebUI.click(findTestObject('Object Repository/Page_Home/button_Log out'))
 	alert = myDriver.findElements(By.className("alert-success"))
 	if(alert.size() == 0){
-		KeywordUtil.markWarning("Logout couldn't be performed")
+		KeywordUtil.markFailed("Logout couldn't be performed")
 	}else{
 		KeywordUtil.markPassed("Login and logout performed correctly")
 	}

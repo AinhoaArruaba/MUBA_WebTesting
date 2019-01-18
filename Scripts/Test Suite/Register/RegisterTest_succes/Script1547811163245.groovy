@@ -103,7 +103,7 @@ WebDriver myDriver = DriverFactory.getWebDriver()
 ArrayList<WebElement> alert = myDriver.findElements(By.className("alert-info"))
 
 if(alert.size() == 0){
-	KeywordUtil.markWarning("Register was not completed")
+	KeywordUtil.markFailed("Register was not completed")
 }else{
 	//KeywordUtil.markPassed("Login performed successfuly")
 	WebUI.setText(findTestObject('Page_Home/input_Log in_username'), 'ainhoa_test')
@@ -114,7 +114,7 @@ if(alert.size() == 0){
 	
 	alert = myDriver.findElements(By.className("alert-success"))
 	if(alert.size() == 0){
-		KeywordUtil.markWarning("Login with new user couldn't be performed")
+		KeywordUtil.markFailed("Login with new user couldn't be performed")
 	}else{
 		KeywordUtil.markPassed("Login and register performed correctly")
 	}

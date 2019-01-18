@@ -103,7 +103,7 @@ WebDriver myDriver = DriverFactory.getWebDriver()
 List<WebElement> alert = myDriver.findElements(By.className("alert-info"))
 
 if(alert.size() == 0){
-	KeywordUtil.markWarning("Test failed")
+	KeywordUtil.markFailed("Test failed")
 }else{
 	KeywordUtil.markPassed("Register was not completed")
 }

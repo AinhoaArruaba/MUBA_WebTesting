@@ -25,7 +25,7 @@ WebDriver myDriver = DriverFactory.getWebDriver()
 ArrayList<WebElement> alert = myDriver.findElements(By.className("alert-danger"))
 
 if(alert == null){
-	KeywordUtil.markWarning("Test failed")
+	KeywordUtil.markFailed("Test failed")
 }else{
 	KeywordUtil.markPassed("Login wasn't archived")
 }

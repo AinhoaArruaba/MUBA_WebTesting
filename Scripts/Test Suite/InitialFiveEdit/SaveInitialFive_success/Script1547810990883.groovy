@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Page_Team/button_Save positions'))
 ArrayList<WebElement> alert = myDriver.findElements(By.className("alert-success"))
 
 if(alert.size() == 0){
-	KeywordUtil.markWarning("Test failed")
+	KeywordUtil.markFailed("Test failed")
 }else{
 	KeywordUtil.markPassed("Initial five change success")
 }

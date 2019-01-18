@@ -34,7 +34,7 @@ WebDriver myDriver = DriverFactory.getWebDriver()
 ArrayList<WebElement> alert = myDriver.findElements(By.className("alert-success"))
 
 if(alert.size() == 0){
-	KeywordUtil.markWarning("Test failed")
+	KeywordUtil.markFailed("Test failed")
 }else{
 	KeywordUtil.markPassed("Password change was archived")
 }

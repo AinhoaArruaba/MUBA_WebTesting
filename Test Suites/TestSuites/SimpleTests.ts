@@ -11,33 +11,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>0e6c2096-d8c6-40ad-8a0c-7de1f834b319</testSuiteGuid>
    <testCaseLink>
-      <guid>94a00cbb-51d3-4f74-889d-62c55850f099</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Test Suite/Register/RegisterTest_succes</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1a2fedc2-327a-40ea-8108-7d7b85c7fc22</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Test Suite/PlayerInfoTest</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>38766eff-79fd-4fa1-92b0-1dce8588deeb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Test Suite/TrainPlayerTest</testCaseId>
+      <testCaseId>Test Cases/Test Suite/TrainPlayer/TrainPlayerTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f154f84c-77c4-4246-b88c-fc991da25264</guid>
+      <guid>a3fad885-a999-4ff3-8e72-9177e1b040c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Test Suite/PlayPageTest</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>53b60aa7-7c56-497c-9fc5-726aa94a3c5d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Test Suite/CreateLeagueTest</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Suite/TrainPlayer/TrainPlayerTest</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

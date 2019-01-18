@@ -38,12 +38,12 @@ element_5.selectByIndex(0)
 
 WebUI.click(findTestObject('Page_Team/button_Save positions'))
 
-ArrayList<WebElement> alert = myDriver.findElements(By.className("alert-fail"))
+ArrayList<WebElement> alert = myDriver.findElements(By.className("alert-danger"))
 
 if(alert.size() == 0){
-	KeywordUtil.markWarning("Test failed")
+	KeywordUtil.markFailed("Test failed")
 }else{
-	KeywordUtil.markPassed("Initial five change success")
+	KeywordUtil.markPassed("Initial five change success checking")
 }
 
 WebUI.closeBrowser()
